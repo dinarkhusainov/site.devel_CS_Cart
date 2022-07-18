@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-17 20:21:01
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-18 16:45:45
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/components/bottom_panel/bottom_panel.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:66510513962d444fddb4077-76999388%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:49543312662d56409105fa8-29582651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '66510513962d444fddb4077-76999388',
+  'nocache_hash' => '49543312662d56409105fa8-29582651',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62d444fe24ebd7_61115558',
+  'unifunc' => 'content_62d564093ac732_35282293',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62d444fe24ebd7_61115558')) {function content_62d444fe24ebd7_61115558($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_62d564093ac732_35282293')) {function content_62d564093ac732_35282293($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_modifier_enum')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/modifier.enum.php';
 if (!is_callable('smarty_modifier_replace')) include '/home/dinar/public_html/site.devel/app/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_script')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.script.php';
