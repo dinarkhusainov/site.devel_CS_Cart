@@ -1411,6 +1411,7 @@ if ($mode === 'add') {
         CONTROLLER_STATUS_OK,
         'exim.export?section=products&pattern_id=' . Tygh::$app['session']['export_ranges']['products']['pattern_id'],
     ];
+    
 } elseif ($mode== 'add_collection' || $mode == 'update_collection') {
     
     $collection_id = !empty($_REQUEST['collection_id']) ? $_REQUEST['collection_id'] : 0;
