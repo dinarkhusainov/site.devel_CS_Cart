@@ -11,7 +11,7 @@
         {$rev=$smarty.request.content_id|default:"pagination_contents_departments"}
         {include_ext file="common/icon.tpl" class="icon-`$search.sort_order_rev`" assign=c_icon}
         {include_ext file="common/icon.tpl" class="icon-dummy" assign=c_dummy}
-        {$department_statuses=""|fn_get_default_statuses:true}
+        {$banner_statuses=""|fn_get_default_statuses:true}
         {$has_permission = fn_check_permissions("departments", "update_status", "admin", "POST")}
 
         {if $departments}
@@ -24,7 +24,7 @@
                     >
                     <tr>
                         <th width="6%" class="left mobile-hide">
-                            {include file="common/check_items.tpl" is_check_disabled=!$has_permission check_statuses=($has_permission) ? $department_statuses : '' }
+                            {include file="common/check_items.tpl" is_check_disabled=!$has_permission check_statuses=($has_permission) ? $banner_statuses : '' }
 
                             <input type="checkbox"
                                 class="bulkedit-toggler hide"

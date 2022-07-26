@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-19 23:30:08
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-26 00:11:37
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/common/styles.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:97104697262d71450d55e20-64017820%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:176144842162df07099e1304-86311881%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '97104697262d71450d55e20-64017820',
+  'nocache_hash' => '176144842162df07099e1304-86311881',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62d71450d79669_98857775',
+  'unifunc' => 'content_62df0709a1a287_18647764',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62d71450d79669_98857775')) {function content_62d71450d79669_98857775($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.styles.php';
+<?php if ($_valid && !is_callable('content_62df0709a1a287_18647764')) {function content_62df0709a1a287_18647764($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.styles.php';
 if (!is_callable('smarty_function_style')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.style.php';
 if (!is_callable('smarty_block_hook')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.hook.php';
 ?><?php $_smarty_tpl->smarty->_tag_stack[] = array('styles', array()); $_block_repeat=true; echo smarty_block_styles(array(), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
