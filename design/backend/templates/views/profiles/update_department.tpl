@@ -8,13 +8,15 @@
 
 <form action="{""|fn_url}" method="post" class="form-horizontal form-edit" name="banners_form" enctype="multipart/form-data">
 <input type="hidden" class="cm-no-hide-input" name="fake" value="1" />
-<input type="hidden" class="cm-no-hide-input" name="department_id" value="{$id}" />
+<input type="hidden" class=banner"cm-no-hide-input" name="department_id" value="{$id}" />
     <div id="content_general">
         <div class="control-group">
             <label for="elm_banner_name" class="control-label cm-required">{__("name")}</label>
             <div class="controls">
-                <input type="text" name="department_data[department]" id="elm_banner_name" value="{$department_data.department}" size="25" class="input-large" /></div>
+                <input type="text" name="department_data[department]" id="elm_banner_name" value="{$department_data.department}" size="25" class="input-large" />
+            </div>
         </div>
+
 
         <div class="control-group">
             <label for="elm_banner_position" class="control-label">{__("position_short")}</label>
@@ -74,8 +76,7 @@
             </div>
         </div>
     
-    
-    
+        
     <!--content_general--></div>
 
 {capture name="buttons"}
@@ -85,7 +86,7 @@
         {include file="buttons/save_cancel.tpl" but_name="dispatch[profiles.update_department]" but_role="submit-link" but_target_form="banners_form" hide_first_button=$hide_first_button hide_second_button=$hide_second_button save=$id}
     {capture name="tools_list"}
              <li>{btn type="list" text=__("delete") class="cm-confirm" href="profiles.delete_department?department_id=`$id`" method="POST"}</li>   
-        {/capture}
+    {/capture}
         {dropdown content=$smarty.capture.tools_list}
     {/if}
 {/capture}
@@ -103,7 +104,9 @@
 
 
 {include file="common/mainbox.tpl"
-    title=($id) ? $department_data.banner : ("Новый отдел")
+    title_start=$title_start
+    title_end=$title_end
+    title=$title
     content=$smarty.capture.mainbox
     buttons=$smarty.capture.buttons
     select_languages=true}

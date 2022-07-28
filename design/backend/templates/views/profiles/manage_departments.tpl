@@ -46,7 +46,7 @@
                         <th width="10%" class="right"><a class="cm-ajax" href="{"`$c_url`&sort_by=status&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("status")}{if $search.sort_by === "status"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a></th>
                     </tr>
                     </thead>
-                    {foreach from=$departments item=department}
+                {foreach from=$departments item=department}
                     <tr class="cm-row-status-{$department.status|lower} cm-longtap-target"
                         {if $has_permission}
                             data-ca-longtap-action="setCheckBox"
@@ -70,7 +70,6 @@
                         <td> 
                             <input type="text" name="departments_data[{$department.department_id}][position]" value="{$department.position}" size="3" class="input-micro">
                         </td>
-                        
                         
                         <td class="{$no_hide_input}" data-th="{__("name")}">
                         

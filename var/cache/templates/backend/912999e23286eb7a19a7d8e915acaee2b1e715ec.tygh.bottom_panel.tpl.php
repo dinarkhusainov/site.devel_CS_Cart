@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-26 00:11:38
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-28 22:25:29
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/components/bottom_panel/bottom_panel.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:93469718562df070a7ab1a0-30875291%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:174457154962e2e2a91a5ae9-35760578%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '93469718562df070a7ab1a0-30875291',
+  'nocache_hash' => '174457154962e2e2a91a5ae9-35760578',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62df070a9b6968_61157475',
+  'unifunc' => 'content_62e2e2a939d829_94465272',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62df070a9b6968_61157475')) {function content_62df070a9b6968_61157475($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_62e2e2a939d829_94465272')) {function content_62e2e2a939d829_94465272($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_modifier_enum')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/modifier.enum.php';
 if (!is_callable('smarty_modifier_replace')) include '/home/dinar/public_html/site.devel/app/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_script')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.script.php';

@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     );
     if ($mode == 'update_collection') {
         $collection_id = !empty($_REQUEST['collection_id']) ? $_REQUEST['collection_id'] : 0;
-        $data = !empty($_REQUEST['collections_data']) ? $_REQUEST['collection_data'] : [];
+        $data = !empty($_REQUEST['collection_data']) ? $_REQUEST['collection_data'] : [];
         $collection_id = fn_update_collection($data, $collection_id);
         if (!empty($collection_id)) {
             $suffix = ".update_collection?collection_id={$collection_id}";
@@ -67,8 +67,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $suffix = ".add_collection";
         }
     } elseif ($mode == 'update_collections') {
-        if (!empty($_REQUEST['collections_data'])) {
-            foreach ($_REQUEST['collections_data'] as $collection_id => $data ) {
+        if (!empty($_REQUEST['collection_data'])) {
+            foreach ($_REQUEST['collection_data'] as $collection_id => $data ) {
                 fn_update_collection($data, $collection_id);
             }
         }
