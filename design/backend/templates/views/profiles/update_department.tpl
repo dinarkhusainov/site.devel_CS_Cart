@@ -58,23 +58,43 @@
        
         {include file="common/select_status.tpl" input_name="department_data[status]" id="elm_banner_status" obj_id=$id obj=$department_data hidden=false}
        
+
         <div class="control-group">
-            <label class="control-label">{__("users")}</label>
+            <label class="control-label">{__("supervisor")}</label>
+            <div class="controls">
+                {include 
+                    file="pickers/users/picker.tpl"
+                    but_text=("Добавить руководителя")
+                    data_id="return_admins" 
+                    but_meta="btn" 
+                    input_name="department_data[adm_id]" 
+                    item_ids=$department_data.adm_id 
+                    placement="right"
+                    display="radio"
+                    view_mode="single_button"
+                    user_info=$adminis_info}
+                <p class="muted description">{__("tt_addons_newsletters_views_newsletters_update_users")}</p>
+            </div>
+        </div>
+        
+        <div class="control-group">
+            <label class="control-label">{__("employees")}</label>
             <div class="controls">
                 {include 
                     file="pickers/users/picker.tpl" 
-                    but_text=__("add_recipients_from_users") 
+                    but_text=("Добавить сотрудника") 
                     data_id="return_users" 
                     but_meta="btn" 
                     input_name="department_data[user_id]" 
                     item_ids=$department_data.user_id 
                     placement="right"
-                    display="radio"
+                    display="checkbox"
                     view_mode="single_button"
                     user_info=$u_info}
                 <p class="muted description">{__("tt_addons_newsletters_views_newsletters_update_users")}</p>
             </div>
         </div>
+
     
         
     <!--content_general--></div>

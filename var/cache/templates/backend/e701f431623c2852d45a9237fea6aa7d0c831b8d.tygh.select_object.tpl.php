@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-28 22:25:29
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-30 21:45:29
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/common/select_object.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:101820433562e2e2a9c907c2-48772964%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:112120697562e57c49464b25-27435663%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '101820433562e2e2a9c907c2-48772964',
+  'nocache_hash' => '112120697562e57c49464b25-27435663',
   'function' => 
   array (
   ),
@@ -46,9 +46,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62e2e2a9d69366_10426331',
+  'unifunc' => 'content_62e57c49541be3_59192382',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62e2e2a9d69366_10426331')) {function content_62e2e2a9d69366_10426331($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sizeof')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/modifier.sizeof.php';
+<?php if ($_valid && !is_callable('content_62e57c49541be3_59192382')) {function content_62e57c49541be3_59192382($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sizeof')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/modifier.sizeof.php';
 if (!is_callable('smarty_function_include_ext')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.include_ext.php';
 ?><?php if (smarty_modifier_sizeof($_smarty_tpl->tpl_vars['items']->value)>1) {?>
 
@@ -64,7 +64,7 @@ _wrap_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['suffix']->value, ENT_Q
         <?php if ($_smarty_tpl->tpl_vars['display_icons']->value) {?>
             <?php ob_start();
 echo htmlspecialchars(mb_strtolower($_smarty_tpl->tpl_vars['items']->value[$_smarty_tpl->tpl_vars['selected_id']->value]['country_code'], 'UTF-8'), ENT_QUOTES, 'UTF-8');
-$_tmp14=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['icon_class'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['items']->value[$_smarty_tpl->tpl_vars['selected_id']->value]['icon_class'])===null||$tmp==='' ? "flag flag-".$_tmp14 : $tmp), null, 0);?>
+$_tmp16=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['icon_class'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['items']->value[$_smarty_tpl->tpl_vars['selected_id']->value]['icon_class'])===null||$tmp==='' ? "flag flag-".$_tmp16 : $tmp), null, 0);?>
             <?php if ($_smarty_tpl->tpl_vars['icon_class']->value) {?>
                 <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_class']->value,'data'=>array("data-ca-target-id"=>"sw_select_".((string)$_smarty_tpl->tpl_vars['selected_id']->value)."_wrap_".((string)$_smarty_tpl->tpl_vars['suffix']->value))),$_smarty_tpl);?>
 
@@ -101,7 +101,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
                         <?php if ($_smarty_tpl->tpl_vars['display_icons']->value) {?>
                             <?php ob_start();
 echo htmlspecialchars(mb_strtolower($_smarty_tpl->tpl_vars['item']->value['country_code'], 'UTF-8'), ENT_QUOTES, 'UTF-8');
-$_tmp15=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['icon_class'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['item']->value['icon_class'])===null||$tmp==='' ? "flag flag-".$_tmp15 : $tmp), null, 0);?>
+$_tmp17=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['icon_class'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['item']->value['icon_class'])===null||$tmp==='' ? "flag flag-".$_tmp17 : $tmp), null, 0);?>
                             <?php if ($_smarty_tpl->tpl_vars['icon_class']->value) {?>
                                 <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_class']->value),$_smarty_tpl);?>
 
@@ -185,7 +185,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
                         <?php if ($_smarty_tpl->tpl_vars['display_icons']->value) {?>
                             <?php ob_start();
 echo htmlspecialchars(mb_strtolower($_smarty_tpl->tpl_vars['item']->value['country_code'], 'UTF-8'), ENT_QUOTES, 'UTF-8');
-$_tmp16=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['icon_class'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['item']->value['icon_class'])===null||$tmp==='' ? "flag flag-".$_tmp16 : $tmp), null, 0);?>
+$_tmp18=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['icon_class'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['item']->value['icon_class'])===null||$tmp==='' ? "flag flag-".$_tmp18 : $tmp), null, 0);?>
                             <?php if ($_smarty_tpl->tpl_vars['icon_class']->value) {?>
                                 <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_class']->value),$_smarty_tpl);?>
 

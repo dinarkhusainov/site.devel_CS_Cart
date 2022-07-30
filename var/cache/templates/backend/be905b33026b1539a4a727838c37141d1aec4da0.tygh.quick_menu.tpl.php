@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-28 22:25:30
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-30 21:45:29
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/common/quick_menu.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:71288296262e2e2aa4d57e3-31845933%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:73175488362e57c49c1f7d1-61697530%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '71288296262e2e2aa4d57e3-31845933',
+  'nocache_hash' => '73175488362e57c49c1f7d1-61697530',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62e2e2aa5473a8_35625749',
+  'unifunc' => 'content_62e57c49c9cda0_66102291',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62e2e2aa5473a8_35625749')) {function content_62e2e2aa5473a8_35625749($_smarty_tpl) {?><?php if (!is_callable('smarty_block_inline_script')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.inline_script.php';
+<?php if ($_valid && !is_callable('content_62e57c49c9cda0_66102291')) {function content_62e57c49c9cda0_66102291($_smarty_tpl) {?><?php if (!is_callable('smarty_block_inline_script')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/block.inline_script.php';
 if (!is_callable('smarty_function_include_ext')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.include_ext.php';
 ?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('editing_quick_menu_section','new_section','editing_quick_menu_link','new_link','quick_menu','remove_this_item','remove_this_item','add_link','add_section','done','edit','name','link','position','use_current_link'));

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-28 22:25:30
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-30 21:45:29
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/views/companies/components/picker/picker.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:65340296962e2e2aa3104a1-11864868%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:140711898462e57c49a4b8a0-10986080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '65340296962e2e2aa3104a1-11864868',
+  'nocache_hash' => '140711898462e57c49a4b8a0-10986080',
   'function' => 
   array (
   ),
@@ -50,9 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62e2e2aa396857_67666320',
+  'unifunc' => 'content_62e57c49ae8e16_74523962',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62e2e2aa396857_67666320')) {function content_62e2e2aa396857_67666320($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_to_json')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/modifier.to_json.php';
+<?php if ($_valid && !is_callable('content_62e57c49ae8e16_74523962')) {function content_62e57c49ae8e16_74523962($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_to_json')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/modifier.to_json.php';
 ?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('type_to_search_or_click_button','none'));
 ?>
@@ -168,8 +168,8 @@ $_smarty_tpl->tpl_vars['item_id']->_loop = true;
 " data-no-defer="true" data-no-execute="§">
     <div class="cm-object-picker-object object-picker__selection <?php if ($_smarty_tpl->tpl_vars['type']->value=="list") {?>object-picker__selection--list<?php }?> object-picker__selection--companies">
         <?php ob_start();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['selection_title_pre']->value, ENT_QUOTES, 'UTF-8');?>
-<?php $_tmp19=ob_get_clean();?><?php ob_start();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['selection_title_post']->value, ENT_QUOTES, 'UTF-8');?>
-<?php $_tmp20=ob_get_clean();?><?php echo $_smarty_tpl->getSubTemplate ("views/companies/components/picker/item.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('type'=>"selection",'title_pre'=>$_tmp19,'title_post'=>$_tmp20), 0);?>
+<?php $_tmp21=ob_get_clean();?><?php ob_start();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['selection_title_post']->value, ENT_QUOTES, 'UTF-8');?>
+<?php $_tmp22=ob_get_clean();?><?php echo $_smarty_tpl->getSubTemplate ("views/companies/components/picker/item.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('type'=>"selection",'title_pre'=>$_tmp21,'title_post'=>$_tmp22), 0);?>
 
     </div>
 <?php echo '</script'; ?>
