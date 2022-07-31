@@ -33,7 +33,7 @@ if (!defined('CONSOLE')) {
 $config['db_host'] = 'localhost';
 $config['db_name'] = 'cscart';
 $config['db_user'] = 'root';
-$config['db_password'] = 'dinar';
+$config['db_password'] = 'root';
 
 $config['database_backend'] = 'mysqli';
 
