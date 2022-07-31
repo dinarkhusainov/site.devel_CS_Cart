@@ -65,7 +65,7 @@
                 {include 
                     file="pickers/users/picker.tpl"
                     but_text=("Добавить руководителя")
-                    data_id="return_admins" 
+                    data_id="return_adm" 
                     but_meta="btn" 
                     input_name="department_data[adm_id]" 
                     item_ids=$department_data.adm_id 
@@ -73,7 +73,6 @@
                     display="radio"
                     view_mode="single_button"
                     user_info=$adminis_info}
-                <p class="muted description">{__("tt_addons_newsletters_views_newsletters_update_users")}</p>
             </div>
         </div>
         
@@ -91,7 +90,6 @@
                     display="checkbox"
                     view_mode="single_button"
                     user_info=$u_info}
-                <p class="muted description">{__("tt_addons_newsletters_views_newsletters_update_users")}</p>
             </div>
         </div>
 

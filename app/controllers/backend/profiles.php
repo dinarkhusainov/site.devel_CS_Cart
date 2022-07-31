@@ -846,7 +846,7 @@ elseif ($mode== 'add_department' || $mode== 'update_department') {
 Tygh::$app['view']->assign([
        'department_data'=> $department_data,
      'u_info' => !empty($department_data['user_id']) ? fn_get_user_short_info($department_data['user_id']) : [],
-     'adminis_info' => !empty($department_data['user_id']) ? fn_get_user_short_info($department_data['adm_id']) : []
+     'adminis_info' => !empty($department_data['adm_id']) ? fn_get_user_short_info($department_data['adm_id']) : []
   ]);
 
 } 

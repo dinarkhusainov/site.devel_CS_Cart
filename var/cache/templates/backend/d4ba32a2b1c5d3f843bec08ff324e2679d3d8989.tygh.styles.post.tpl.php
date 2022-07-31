@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-07-30 21:45:27
+<?php /* Smarty version Smarty-3.1.21, created on 2022-07-30 22:42:02
          compiled from "/home/dinar/public_html/site.devel/design/backend/templates/addons/product_reviews/hooks/index/styles.post.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:136019811262e57c47ccb256-14930951%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:135340229762e5898a9daa68-00104360%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,14 +11,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '136019811262e57c47ccb256-14930951',
+  'nocache_hash' => '135340229762e5898a9daa68-00104360',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_62e57c47cccd17_97320683',
+  'unifunc' => 'content_62e5898a9dca40_91134932',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_62e57c47cccd17_97320683')) {function content_62e57c47cccd17_97320683($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.style.php';
+<?php if ($_valid && !is_callable('content_62e5898a9dca40_91134932')) {function content_62e5898a9dca40_91134932($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include '/home/dinar/public_html/site.devel/app/functions/smarty_plugins/function.style.php';
 ?><?php echo smarty_function_style(array('src'=>"addons/product_reviews/styles.less"),$_smarty_tpl);?>
 <?php }} ?>
