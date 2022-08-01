@@ -1,1 +1,0 @@
-<th>{__("paypal_commerce_platform.paypal_account")}</th>

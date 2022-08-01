@@ -1,1 +1,0 @@
-<th>{__("paypal_verification")}</th>
