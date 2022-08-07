@@ -521,7 +521,7 @@ $schema = [
                     'position' => 300,
                 ],
                 'departments' => [
-                    'href' => 'profiles.manage?user_type=D',
+                    'href' => 'profiles.manage_departments',
                     'position' => 400,
                 ],
                 'usergroups' => [
